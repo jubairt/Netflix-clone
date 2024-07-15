@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+   background-color: #000;
+   color: #fff;
+   width: 100%;
+   height:500vh;
+
+}
+.header{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg);
+    background-size: 123%;
+    background-position: center;
+    position: relative;
+    padding: 10px 8%;
+    
+}
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    margin-top: 13px;
+    margin-left: 50px;
+    
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    padding: 7px 20px;
+    font-size: 12px;
+    color: #fff;
+    margin: 4px;
+    border-radius: 5px;
+    font-weight: 649;
+    line-height: 18px;
+    font-size: 14px;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+
+}
+.header-content{
+    text-align: center;
+    padding-top: 23%;
+    color: rgb(255, 255, 255);
+    
+}
+.title{
+    font-size:48px;
+    font-weight: 900;
+    line-height: 30px;
+    
+}
+.watch{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.ready{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+     
+
+.email{
+   padding: 15px;
+    width: 338.354px;
+   
+    background-color: rgb(47, 46, 46);
+    
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 0.5px!important;
+    margin-right: 4px;
+    color: white;
+   opacity: 0.5;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size:  16px;
+
+  
+   
+    
+}
+.email::placeholder{
+font-size: large;
+color: white;
+
+
+}
+.submit{
+    color: rgba(255, 255, 255);
+   border-color: whitesmoke;
+   border-radius: 5px;
+   border-width: 1px;
+   
+   padding: 15px;
+   width: 206.312px;
+   background-color:  rgb(229, 9, 20);
+   font-size: 1.5rem;
+   line-height: 26px;
+   font-weight: 500;
+   margin-top: 17px;
+   padding-top: 11px;
+   padding-bottom: 18px;
+   border-color: #000;
+   box-shadow: 0.1px 0.1px 0.1px 0.5px;
+}
+
+.section{
+    border-top: 10px solid rgb(255, 255, 255, 0.1);   
+    display: flex;
+    height: 500px;
+    
+}
+.tv{
+    width: 450px;
+    margin-top: 60px;
+    
+   
+}
+.content{
+    width: 55%;
+    padding-left: 130px;
+    padding-top: 130px;
+    font-size: 29px;
+    
+    
+}
+h2{
+    font-weight: 999;
+    margin-left: 10px;
+    
+}
+
+.para{
+    margin: 10px;
+    
+}
+
+
+
+.images-2{
+    width: 25%;
+    margin-left: 130px;
+}
+
+
+.tv{
+    width: 450px;
+    margin-top: 50px;
+    
+    margin-top: 125px;
+    padding-right: none;
+
+}
+.content-2{
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 130px;
+    font-size: 29px;
+    
+    
+}
+.heading{
+    font-weight: 999;
+    margin-left: 20px;
+    
+}
+
+
+
+.content-3{
+    width: 55%;
+    padding-left: 120px;
+    padding-top: 130px;
+    font-size: 29px;
+ 
+}
+
+.heading-3{
+    margin-left: 0;
+}
+.images-4{
+    width: 25%;
+    margin-left: 140px;
+}
+
+.section-5{
+    border-top: 10px solid rgb(255, 255, 255, 0.1);   
+    display: block;
+    
+    
+}
+.nav{
+   
+    margin: 60px 153.5px;
+    height: 716px;
+}
+ul{
+    padding-left: 20px;
+    
+}
+li{
+    list-style-type: none;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.19);
+    margin-top: 8px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.2s;
+    
+}
+li:hover,
+li:focus{
+    background-color: rgb(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+.Questions{
+    text-align: center;
+    font-weight: 999;
+    padding-bottom: 40px;
+    font-size: 48px;
+
+
+}
+.under-links{
+    text-align: center;
+}
+.above-signup{
+    font-size: 20px;
+    line-height: 25px;
+}
+.section-5{
+    border-top: 10px solid rgb(255, 255, 255, 0.1);   
+    display: block;
+    
+    
+}
+.sign-up{
+    margin-bottom: 75px;
+}
+.section-6{
+    border-top: 10px solid rgb(255, 255, 255, 0.1);   
+    display: block;
+    display: flex;
+    padding-left: 110px;
+    padding-top: 48px;
+    color: rgba(255, 255, 255, 0.7);
+  
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+td{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 45px;
+}
+.lang-last{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: rgba(255, 255, 255, 0.7);;
+    margin: 4px;
+    border-radius: 5px;
+    font-weight: 649;
+    line-height: 18px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.arrow{
+    width: 10px;
+    margin-left: 10px;
+}
