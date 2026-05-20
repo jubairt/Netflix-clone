@@ -1,6 +1,6 @@
 # Netflix Landing Page Clone
 
-A responsive Netflix landing page clone built using HTML and CSS, featuring modern UI design, responsive sections, and Netflix-inspired styling. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+A responsive Netflix landing page clone built using HTML and CSS, featuring modern UI design, responsive sections, and Netflix-inspired styling.
 
 ---
 
